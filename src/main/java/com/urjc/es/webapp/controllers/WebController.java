@@ -11,7 +11,7 @@ public class WebController {
     @GetMapping("/")
     public ModelAndView helloworld(){
         ModelAndView mvc = new ModelAndView("index");
-        mvc.addObject("name", "Biblioteca!");
+        mvc.addObject("name", "Demo!");
         return mvc;
     }
 
